@@ -1,0 +1,12 @@
+{
+    "duration": "2",
+    "price": "240",
+    "BookingDateStart": "new Date()",
+    "firstName": "Aditria",
+    "lastName": "Pardana",
+    "emailAddress": "aditria.pardana@yahoo.co.id",
+    "phoneNumber": "085761719298",
+    "accountHolder": "Aditria Pardana",
+    "bankFrom": "Mandiri",
+    "proofPayment": "FileData()"
+}
