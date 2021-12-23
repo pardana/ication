@@ -1,0 +1,59 @@
+{
+    "hero": {
+        "travelers": 80409,
+        "treasures": 862,
+        "cities": 1492
+    },
+    "mostPicked": [
+        {
+            "_id": "ahsfdhjafsda1",
+            "name": "Blue Origin Fams",
+            "type": "Apartment",
+            "imageUrl": "/images/img-mostpicked-1.jpeg",
+            "country": "Indonesia",
+            "city": "Jakarta",
+            "price": "50",
+            "unit": "night"
+        },
+        {
+            "_id": "ahsfdhjafsda2",
+            "name": "Ocean Land",
+            "type": "Apartment",
+            "imageUrl": "/images/img-mostpicked-2.jpeg",
+            "country": "Indonesia",
+            "city": "Bandung",
+            "price": "22",
+            "unit": "night"
+        },
+        {
+            "_id": "ahsfdhjafsda3",
+            "name": "Stark House",
+            "type": "Apartment",
+            "imageUrl": "/images/img-mostpicked-3.jpeg",
+            "country": "Indonesia",
+            "city": "Malang",
+            "price": "856",
+            "unit": "night"
+        },
+        {
+            "_id": "ahsfdhjafsda4",
+            "name": "Vinna Vill",
+            "type": "Apartment",
+            "imageUrl": "/images/img-mostpicked-4.jpeg",
+            "country": "Indinesia",
+            "city": "Malang",
+            "price": "62",
+            "unit": "night"
+        },
+        {
+            "_id": "ahsfdhjafsda5",
+            "name": "Bobox",
+            "type": "Apartment",
+            "imageUrl": "/images/img-mostpicked-5.jpeg",
+            "country": "Indonesia",
+            "city": "Medan",
+            "price": "72",
+            "unit": "night"
+        }
+    ]
+}
