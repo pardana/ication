@@ -171,5 +171,14 @@
                 }
             ]
         }
-    ]
+    ],
+    "testimonial":{
+        "_id": "ajsgdkjagdaikd1",
+        "imageUrl": "/images/img-testimonial-1.jpeg",
+        "name": "Happy Family",
+        "rate": 4.5,
+        "content": "What a great trip with my family and I should try again next time soon ...",
+        "familyName": "Aditria Pardana",
+        "familyOccupation": "Frontend Developer"
+    }
 }
