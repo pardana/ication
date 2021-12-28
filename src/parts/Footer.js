@@ -8,14 +8,14 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-auto" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tagline">
               We kaboom your beauty holiday instantly and memorable
             </p>
           </div>
 
-          <div className="col-2 mr-5">
+          <div className="col-3 mr-5">
             <h6 className="mt-2">For Beginners</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -57,7 +57,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-4">
+          <div className="col-2">
             <h6 className="mt-2">Connect Us</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -78,6 +78,12 @@ export default function Footer() {
                 <span>iCation, Bekasi, Jakarta</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col text-center copyrights">
+            Copyright 2019 • All rights reserved • Staycation
           </div>
         </div>
       </div>
