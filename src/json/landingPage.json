@@ -55,5 +55,130 @@
             "price": "72",
             "unit": "night"
         }
-    ]
+    ],
+    "categories": [
+        {
+            "_id": "asd123164871",
+            "name": "House with beauty backyard",
+            "items": [
+                {
+                    "_id": "asdgdsuifgsd1",
+                    "name": "Tabby Rown",
+                    "imageUrl": "/images/img-category-1.jpeg",
+                    "country": "Indonesia",
+                    "city": "Gunung Batu",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asdgdsuifgsd2",
+                    "name": "Anggana",
+                    "imageUrl": "/images/img-category-2.jpeg",
+                    "country": "Indonesia",
+                    "city": "Bogor",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsd3",
+                    "name": "Seattle Rain",
+                    "imageUrl": "/images/img-category-3.jpeg",
+                    "country": "Indonesia",
+                    "city": "Jakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsd4",
+                    "name": "Wodden Pit",
+                    "imageUrl": "/images/img-category-4.jpeg",
+                    "country": "Indonesia",
+                    "city": "Wonosobo",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "_id": "asd123164872",
+            "name": "House with large living room",
+            "items": [
+                {
+                    "_id": "asdgdsuifgsdx1",
+                    "name": "Green Park",
+                    "imageUrl": "/images/img-category-5.jpeg",
+                    "country": "Indonesia",
+                    "city": "Tangerang",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsdx2",
+                    "name": "Podo Wae",
+                    "imageUrl": "/images/img-category-6.jpeg",
+                    "country": "Indonesia",
+                    "city": "Madiun",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsdx3",
+                    "name": "Silver Rain",
+                    "imageUrl": "/images/img-category-7.jpeg",
+                    "country": "Indonesia",
+                    "city": "Bandung",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsdx4",
+                    "name": "Cashville",
+                    "imageUrl": "/images/img-category-8.jpeg",
+                    "country": "Indonesia",
+                    "city": "Kemang",
+                    "isPopular": true
+                }
+            ]
+        },
+        {
+            "_id": "asd123164873",
+            "name": "Apartment with kitchen set",
+            "items": [
+                {
+                    "_id": "asdgdsuifgsdz1",
+                    "name": "PS Wood",
+                    "imageUrl": "/images/img-category-9.jpeg",
+                    "country": "Indonesia",
+                    "city": "Depok",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsdz2",
+                    "name": "One Five",
+                    "imageUrl": "/images/img-category-10.jpeg",
+                    "country": "Indonesia",
+                    "city": "Jakarta",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asdgdsuifgsdz3",
+                    "name": "Minimal",
+                    "imageUrl": "/images/img-category-11.jpeg",
+                    "country": "Indonesia",
+                    "city": "Bogor",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asdgdsuifgsdz4",
+                    "name": "Stays Home",
+                    "imageUrl": "/images/img-category-12.jpeg",
+                    "country": "Indonesia",
+                    "city": "Wonosobo",
+                    "isPopular": false
+                }
+            ]
+        }
+    ],
+    "testimonial":{
+        "_id": "ajsgdkjagdaikd1",
+        "imageUrl": "/images/img-testimonial-1.jpeg",
+        "name": "Happy Family",
+        "rate": 4.5,
+        "content": "What a great trip with my family and I should try again next time soon ...",
+        "familyName": "Aditria Pardana",
+        "familyOccupation": "Frontend Developer"
+    }
 }
