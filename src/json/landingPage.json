@@ -1,184 +1,185 @@
 {
     "hero": {
-        "travelers": 80409,
-        "treasures": 862,
-        "cities": 1492
+      "travelers": 80409,
+      "treasures": 882,
+      "cities": 1492
     },
     "mostPicked": [
-        {
-            "_id": "ahsfdhjafsda1",
-            "name": "Blue Origin Fams",
-            "type": "Apartment",
-            "imageUrl": "/images/img-mostpicked-1.jpeg",
-            "country": "Indonesia",
-            "city": "Jakarta",
-            "price": "50",
-            "unit": "night"
-        },
-        {
-            "_id": "ahsfdhjafsda2",
-            "name": "Ocean Land",
-            "type": "Apartment",
-            "imageUrl": "/images/img-mostpicked-2.jpeg",
-            "country": "Indonesia",
-            "city": "Bandung",
-            "price": "22",
-            "unit": "night"
-        },
-        {
-            "_id": "ahsfdhjafsda3",
-            "name": "Stark House",
-            "type": "Apartment",
-            "imageUrl": "/images/img-mostpicked-3.jpeg",
-            "country": "Indonesia",
-            "city": "Malang",
-            "price": "856",
-            "unit": "night"
-        },
-        {
-            "_id": "ahsfdhjafsda4",
-            "name": "Vinna Vill",
-            "type": "Apartment",
-            "imageUrl": "/images/img-mostpicked-4.jpeg",
-            "country": "Indinesia",
-            "city": "Malang",
-            "price": "62",
-            "unit": "night"
-        },
-        {
-            "_id": "ahsfdhjafsda5",
-            "name": "Bobox",
-            "type": "Apartment",
-            "imageUrl": "/images/img-mostpicked-5.jpeg",
-            "country": "Indonesia",
-            "city": "Medan",
-            "price": "72",
-            "unit": "night"
-        }
+      {
+        "_id": "asd1293uasdads1",
+        "name": "Jung Hook Sie",
+        "type": "Apartment",
+        "imageUrl": "/images/img-mostpicked-1.jpeg",
+        "country": "South Korea",
+        "city": "Seoul Flore",
+        "price": "80",
+        "unit": "night"
+      },
+      {
+        "_id": "asd1293uasdads12",
+        "name": "The People House",
+        "type": "Hotel",
+        "imageUrl": "/images/img-mostpicked-2.jpeg",
+        "country": "Indonesia",
+        "city": "Bogor",
+        "price": "52",
+        "unit": "night"
+      },
+      {
+        "_id": "asd1293uasdads13",
+        "name": "House Tour",
+        "type": "Rumah",
+        "imageUrl": "/images/img-mostpicked-3.jpeg",
+        "country": "South Korea",
+        "city": "Seoul Flore",
+        "price": "80",
+        "unit": "night"
+      },
+      {
+        "_id": "asd1293uasdads14",
+        "name": "Jung Hook Sie",
+        "type": "Apartment",
+        "imageUrl": "/images/img-mostpicked-4.jpeg",
+        "country": "South Korea",
+        "city": "Seoul Flore",
+        "price": "80",
+        "unit": "night"
+      },
+      {
+        "_id": "asd1293uasdads15",
+        "name": "Jung Hook Sie",
+        "type": "Apartment",
+        "imageUrl": "/images/img-mostpicked-5.jpeg",
+        "country": "South Korea",
+        "city": "Seoul Flore",
+        "price": "80",
+        "unit": "night"
+      }
     ],
     "categories": [
-        {
-            "_id": "asd123164871",
-            "name": "House with beauty backyard",
-            "items": [
-                {
-                    "_id": "asdgdsuifgsd1",
-                    "name": "Tabby Rown",
-                    "imageUrl": "/images/img-category-1.jpeg",
-                    "country": "Indonesia",
-                    "city": "Gunung Batu",
-                    "isPopular": true
-                },
-                {
-                    "_id": "asdgdsuifgsd2",
-                    "name": "Anggana",
-                    "imageUrl": "/images/img-category-2.jpeg",
-                    "country": "Indonesia",
-                    "city": "Bogor",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsd3",
-                    "name": "Seattle Rain",
-                    "imageUrl": "/images/img-category-3.jpeg",
-                    "country": "Indonesia",
-                    "city": "Jakarta",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsd4",
-                    "name": "Wodden Pit",
-                    "imageUrl": "/images/img-category-4.jpeg",
-                    "country": "Indonesia",
-                    "city": "Wonosobo",
-                    "isPopular": false
-                }
-            ]
-        },
-        {
-            "_id": "asd123164872",
-            "name": "House with large living room",
-            "items": [
-                {
-                    "_id": "asdgdsuifgsdx1",
-                    "name": "Green Park",
-                    "imageUrl": "/images/img-category-5.jpeg",
-                    "country": "Indonesia",
-                    "city": "Tangerang",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsdx2",
-                    "name": "Podo Wae",
-                    "imageUrl": "/images/img-category-6.jpeg",
-                    "country": "Indonesia",
-                    "city": "Madiun",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsdx3",
-                    "name": "Silver Rain",
-                    "imageUrl": "/images/img-category-7.jpeg",
-                    "country": "Indonesia",
-                    "city": "Bandung",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsdx4",
-                    "name": "Cashville",
-                    "imageUrl": "/images/img-category-8.jpeg",
-                    "country": "Indonesia",
-                    "city": "Kemang",
-                    "isPopular": true
-                }
-            ]
-        },
-        {
-            "_id": "asd123164873",
-            "name": "Apartment with kitchen set",
-            "items": [
-                {
-                    "_id": "asdgdsuifgsdz1",
-                    "name": "PS Wood",
-                    "imageUrl": "/images/img-category-9.jpeg",
-                    "country": "Indonesia",
-                    "city": "Depok",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsdz2",
-                    "name": "One Five",
-                    "imageUrl": "/images/img-category-10.jpeg",
-                    "country": "Indonesia",
-                    "city": "Jakarta",
-                    "isPopular": false
-                },
-                {
-                    "_id": "asdgdsuifgsdz3",
-                    "name": "Minimal",
-                    "imageUrl": "/images/img-category-11.jpeg",
-                    "country": "Indonesia",
-                    "city": "Bogor",
-                    "isPopular": true
-                },
-                {
-                    "_id": "asdgdsuifgsdz4",
-                    "name": "Stays Home",
-                    "imageUrl": "/images/img-category-12.jpeg",
-                    "country": "Indonesia",
-                    "city": "Wonosobo",
-                    "isPopular": false
-                }
-            ]
-        }
+      {
+        "_id": "asd1293uasdads16",
+        "name": "House with beauty backyard",
+        "items": [
+          {
+            "_id": "asd1293uasdads17",
+            "name": "PSW Antasari",
+            "imageUrl": "/images/img-category-1.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": true
+          },
+          {
+            "_id": "asd1293uasdads18",
+            "name": "Kuretakeso",
+            "imageUrl": "/images/img-category-2.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads19",
+            "name": "Arya Duta",
+            "imageUrl": "/images/img-category-3.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads11",
+            "name": "Grand Dhika",
+            "imageUrl": "/images/img-category-4.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          }
+        ]
+      },
+      {
+        "_id": "asd1293uasdads12",
+        "name": "Hotels with large living room",
+        "items": [
+          {
+            "_id": "asd1293uasdads133",
+            "name": "PSW Antasari",
+            "imageUrl": "/images/img-category-5.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads144",
+            "name": "Kuretakeso",
+            "imageUrl": "/images/img-category-6.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads155",
+            "name": "Arya Duta",
+            "imageUrl": "/images/img-category-7.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads166",
+            "name": "Grand Dhika",
+            "imageUrl": "/images/img-category-8.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": true
+          }
+        ]
+      },
+      {
+        "_id": "asd1293uasdads177",
+        "name": "Apartments with kitchen set",
+        "items": [
+          {
+            "_id": "asd1293uasdads1",
+            "name": "PSW Antasari",
+            "imageUrl": "/images/img-category-9.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads188",
+            "name": "Kuretakeso",
+            "imageUrl": "/images/img-category-10.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          },
+          {
+            "_id": "asd1293uasdads199",
+            "name": "Arya Duta",
+            "imageUrl": "/images/img-category-11.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": true
+          },
+          {
+            "_id": "asd1293uasdads100",
+            "name": "Grand Dhika",
+            "imageUrl": "/images/img-category-12.jpeg",
+            "country": "South Korea",
+            "city": "Seoul Flore",
+            "isPopular": false
+          }
+        ]
+      }
     ],
-    "testimonial":{
-        "_id": "ajsgdkjagdaikd1",
-        "imageUrl": "/images/img-testimonial-1.jpeg",
-        "name": "Happy Family",
-        "rate": 4.5,
-        "content": "What a great trip with my family and I should try again next time soon ...",
-        "familyName": "Aditria Pardana",
-        "familyOccupation": "Frontend Developer"
+    "testimonial": {
+      "_id": "asd1293uasdads1111",
+      "imageUrl": "/images/img-testimonial-1.jpeg",
+      "name": "Happy Family",
+      "rate": 4.55,
+      "content": "What a great trip with my family and I should try again next time soon ...",
+      "familyName": "Angga",
+      "familyOccupation": "Product Designer"
     }
-}
+  }
+  
