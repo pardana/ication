@@ -28,7 +28,7 @@
       "_id": "asd1293uasdads1",
       "qty": "3",
       "name": "bedroom",
-      "imageUrl": "/images/icon-bedroom.svg"
+      "imageUrl": "/images/icon-bathroom.svg"
     },
     {
       "_id": "asd1293uasdads1",
@@ -58,13 +58,13 @@
       "_id": "asd1293uasdads1",
       "qty": "2",
       "name": "units ready",
-      "imageUrl": "/images/icon-airconditioner.svg"
+      "imageUrl": "/images/icon-ac.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
       "name": "refrigerator",
-      "imageUrl": "/images/icon-refrigerator.svg"
+      "imageUrl": "/images/icon-kulkas.svg"
     },
     {
       "_id": "asd1293uasdads1",
