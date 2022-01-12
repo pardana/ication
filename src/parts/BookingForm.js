@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 import propTypes from "prop-types";
 
@@ -6,7 +7,7 @@ import Button from "elements/Button";
 import InputNumber from "elements/Form/InputNumber";
 import InputDate from "elements/Form/InputDate";
 
-export default class BookingForm extends Component {
+class BookingForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -38,7 +39,6 @@ export default class BookingForm extends Component {
       const startDate = new Date(data.date.startDate);
       const endDate = new Date(data.date.endDate);
       const countDuration = new Date(endDate - startDate).getDate();
-
       this.setState({
         data: {
           ...this.state.data,
@@ -50,9 +50,8 @@ export default class BookingForm extends Component {
     if (prevState.data.duration !== data.duration) {
       const startDate = new Date(data.date.startDate);
       const endDate = new Date(
-        startDate.setData(startDate.getDate() + +data.duration - 1)
+        startDate.setDate(startDate.getDate() + +data.duration - 1)
       );
-
       this.setState({
         ...this.state,
         data: {
@@ -66,9 +65,22 @@ export default class BookingForm extends Component {
     }
   }
 
+  startBooking = () => {
+    const { data } = this.state;
+    this.props.startBooking({
+      _id: this.props.itemDetails._id,
+      duration: data.duration,
+      date: {
+        startDate: data.date.startDate,
+        endDate: data.date.endDate,
+      },
+    });
+    this.props.history.push("/checkout");
+  };
+
   render() {
     const { data } = this.state;
-    const { itemDetails, startBooking } = this.props;
+    const { itemDetails } = this.props;
 
     return (
       <div className="card bordered" style={{ padding: "60px 80px" }}>
@@ -95,7 +107,7 @@ export default class BookingForm extends Component {
 
         <h6
           className="text-gray-500 font-weight-light"
-          style={{ marginbottom: 40 }}
+          style={{ marginBottom: 40 }}
         >
           You will pay{" "}
           <span className="text-gray-900">
@@ -108,11 +120,11 @@ export default class BookingForm extends Component {
         </h6>
 
         <Button
-          className="btn mt-4"
+          className="btn"
           hasShadow
           isPrimary
           isBlock
-          onClick={startBooking}
+          onClick={this.startBooking}
         >
           Continue to Book
         </Button>
@@ -125,3 +137,5 @@ BookingForm.propTypes = {
   itemDetails: propTypes.object,
   startBooking: propTypes.func,
 };
+
+export default withRouter(BookingForm);

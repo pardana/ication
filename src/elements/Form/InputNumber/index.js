@@ -41,7 +41,7 @@ export default function Number(props) {
   };
 
   const plus = () => {
-    value > max &&
+    value < max &&
       onChange({
         target: {
           name: name,
