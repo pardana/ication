@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import propTypes from "prop=types";
+import propTypes from "prop-types";
 
 import "./index.scss";
 
