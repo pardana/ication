@@ -40,8 +40,9 @@ const setup = () => {
   };
 };
 
-test("Should have wrapper with classname .form-control", () => {
+test("Should have wrapper with className .form-control", () => {
   const { wrapper } = setup();
+
   expect(wrapper).toBeInTheDocument();
 });
 

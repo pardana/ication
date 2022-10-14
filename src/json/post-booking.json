@@ -1,12 +1,13 @@
 {
-    "duration": "2",
-    "price": "240",
-    "BookingDateStart": "new Date()",
-    "firstName": "Aditria",
-    "lastName": "Pardana",
-    "emailAddress": "aditria.pardana@yahoo.co.id",
-    "phoneNumber": "085761719298",
-    "accountHolder": "Aditria Pardana",
-    "bankFrom": "Mandiri",
-    "proofPayment": "FileData()"
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Angga",
+  "lastName": "Risky",
+  "emailAddress": "angga@buildwithangga.com",
+  "phoneNumber": "081923012380",
+  "accountHolder": "Angga Risky",
+  "bankFrom": "BCA",
+  "proofPayment": "FileData()"
 }

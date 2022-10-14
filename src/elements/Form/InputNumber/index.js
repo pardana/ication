@@ -1,32 +1,28 @@
 import React, { useState } from "react";
-
 import propTypes from "prop-types";
 import "./index.scss";
 
 export default function Number(props) {
-  const { value, placeholder, name, min, max, prefix, suffix, isSuffixPlural } =
-    props;
-  // const [InputValue, setInputValue] = useState(`${prefix}${suffix}`);
+  const { value, placeholder, name, min, max, prefix, suffix } = props;
+
+  const [InputValue, setInputValue] = useState(`${prefix}${value}${suffix}`);
 
   const onChange = (e) => {
     let value = String(e.target.value);
-    // if (prefix) value = value.replace(prefix);
-    // if (suffix) value = value.replace(suffix);
+    if (prefix) value = value.replace(prefix);
+    if (suffix) value = value.replace(suffix);
 
-    // const patternNumeric = new RegExp("[0-9]*");
-    // const isNumeric = patternNumeric.test(value);
+    const patternNumeric = new RegExp("[0-9]*");
+    const isNumeric = patternNumeric.test(value);
 
-    // if (isNumeric && +value <= max && +value >= min) {
-    if (+value <= max && +value >= min) {
+    if (isNumeric && +value <= max && +value >= min) {
       props.onChange({
         target: {
           name: name,
           value: +value,
         },
       });
-      // setInputValue(
-      // `${prefix}${value}${suffix}${isSuffixPlural && value > 1 ? "s" : ""}`
-      // );
+      setInputValue(`${prefix}${value}${suffix}`);
     }
   };
 
@@ -39,7 +35,6 @@ export default function Number(props) {
         },
       });
   };
-
   const plus = () => {
     value < max &&
       onChange({
@@ -49,7 +44,6 @@ export default function Number(props) {
         },
       });
   };
-
   return (
     <div className={["input-number mb-3", props.outerClassName].join(" ")}>
       <div className="input-group">
@@ -62,17 +56,13 @@ export default function Number(props) {
           min={min}
           max={max}
           name={name}
-          readOnly
-          // pattern="[0-9]*"
+          pattern="[0-9]*"
           className="form-control"
           placeholder={placeholder ? placeholder : "0"}
-          // value={String(InputValue)}
-          value={`${prefix}${value}${suffix}${
-            isSuffixPlural && value > 1 ? "s" : ""
-          }`}
+          value={String(InputValue)}
           onChange={onChange}
         />
-        <div className="input-grup-append">
+        <div className="input-group-append">
           <span className="input-group-text plus" onClick={plus}>
             +
           </span>
@@ -91,8 +81,7 @@ Number.defaultProps = {
 
 Number.propTypes = {
   value: propTypes.oneOfType([propTypes.string, propTypes.number]),
-  onchange: propTypes.func,
-  isSuffixPlural: propTypes.bool,
+  onChange: propTypes.func,
   placeholder: propTypes.string,
   outerClassName: propTypes.string,
 };

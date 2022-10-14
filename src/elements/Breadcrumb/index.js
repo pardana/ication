@@ -35,5 +35,5 @@ export default function Breadcrumb(props) {
 
 Breadcrumb.propTypes = {
   data: propTypes.array,
-  className: propTypes.string,
+  className: propTypes.string
 };

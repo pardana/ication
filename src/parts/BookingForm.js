@@ -4,8 +4,7 @@ import { withRouter } from "react-router-dom";
 import propTypes from "prop-types";
 
 import Button from "elements/Button";
-import InputNumber from "elements/Form/InputNumber";
-import InputDate from "elements/Form/InputDate";
+import { InputNumber, InputDate } from "elements/Form";
 
 class BookingForm extends Component {
   constructor(props) {

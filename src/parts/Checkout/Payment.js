@@ -21,36 +21,35 @@ export default function Payment(props) {
             <Fade delay={300}>
               <p className="mb-4">Transfer Pembayaran:</p>
               <p>Tax: {tax}%</p>
-              <p>Sub Total: ${subTotal} USD</p>
+              <p>Sub total: ${subTotal} USD</p>
               <p>Total: ${grandTotal} USD</p>
               <div className="row mt-4">
                 <div className="col-3 text-right">
-                  <img src={logoBca} alt="BCA" width="60" />
+                  <img src={logoBca} alt="bank central asia" width="60" />
                 </div>
                 <div className="col">
                   <dl>
                     <dd>Bank Central Asia</dd>
-                    <dd>2176 1796</dd>
-                    <dd>Aditria Pardana</dd>
+                    <dd>2208 1996</dd>
+                    <dd>BuildWith Angga</dd>
                   </dl>
                 </div>
               </div>
 
               <div className="row">
                 <div className="col-3 text-right">
-                  <img src={logoMandiri} alt="Mandiri" width="60" />
+                  <img src={logoMandiri} alt="mandiri" width="60" />
                 </div>
                 <div className="col">
                   <dl>
-                    <dd>Mandiri</dd>
-                    <dd>8791 5624</dd>
-                    <dd>Aditria Pardana</dd>
+                    <dd>Bank Mandiri</dd>
+                    <dd>2208 1996</dd>
+                    <dd>BuildWith Angga</dd>
                   </dl>
                 </div>
               </div>
             </Fade>
           </div>
-
           <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
             <Fade delay={600}>
               <label htmlFor="proofPayment">Upload Bukti Transfer</label>
@@ -63,7 +62,7 @@ export default function Payment(props) {
               />
 
               <label htmlFor="bankName">Asal Bank</label>
-              <InputFile
+              <InputText
                 id="bankName"
                 name="bankName"
                 type="text"
@@ -72,7 +71,7 @@ export default function Payment(props) {
               />
 
               <label htmlFor="bankHolder">Nama Pengirim</label>
-              <InputFile
+              <InputText
                 id="bankHolder"
                 name="bankHolder"
                 type="text"

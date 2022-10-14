@@ -6,18 +6,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 const setup = () => {
   const breadcrumbList = [
     { pageTitle: "Home", pageHref: "" },
-    { pageTitle: "House Details", pageHref: "" },
+    { pageTitle: "House Details", pageHref: "" }
   ];
-
   const { container } = render(
     <Router>
       <Breadcrumb data={breadcrumbList} />
     </Router>
   );
-
   const breadcrumb = container.querySelector(`.breadcrumb`);
 
-  return { breadcrumb };
+  return {
+    breadcrumb
+  };
 };
 
 test("Should have <ol> with className .breadcrumb and have text Home & House Details", () => {

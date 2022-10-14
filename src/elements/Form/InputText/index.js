@@ -63,8 +63,8 @@ export default function Text(props) {
             <span className="input-group-text">{append}</span>
           </div>
         )}
-        {HasError && <span className="error-helper">{HasError}</span>}
       </div>
+      {HasError && <span className="error-helper">{HasError}</span>}
     </div>
   );
 }
@@ -73,7 +73,7 @@ Text.defaultProps = {
   type: "text",
   pattern: "",
   placeholder: "Please type here...",
-  errorResponse: "Place match the requested format.",
+  errorResponse: "Please match the requested format.",
 };
 
 Text.propTypes = {
